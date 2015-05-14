@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="dhruv" parent="@style/_dhruv"/>
+
+  <style name="_dhruv" parent="@android:style/Theme.Holo">
+
+    <item name="android:editTextStyle">@style/EditTextdhruv</item>
+
+    <item name="android:textColorHighlight">#9933b5e5</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewdhruv</item>
+
+    <item name="android:buttonStyle">@style/Buttondhruv</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtondhruv</item>
+
+    <item name="android:spinnerStyle">@style/Spinnerdhruv</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemdhruv</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBardhruv</item>
+
+  </style>
+
+</resources>
