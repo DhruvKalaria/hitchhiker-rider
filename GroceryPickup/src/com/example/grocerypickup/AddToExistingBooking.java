@@ -41,10 +41,8 @@ public class AddToExistingBooking extends ListActivity {
 	private static final String TAG_DESTINATION = "destination";
 	private TextView txtVResult = null;
 
-	// contacts JSONArray
 	JSONArray contacts = null;
 
-	// Hashmap for ListView
 	ArrayList<HashMap<String, String>> contactList;
 
 	@Override
