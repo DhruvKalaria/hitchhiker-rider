@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <!-- Name Label -->
+
+    <TextView
+        android:id="@+id/timestamp_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:duplicateParentState="false"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:textColor="#43bd00"
+        android:textSize="15dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bookingid_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:duplicateParentState="false"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:textColor="#43bd00"
+        android:textSize="15dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/source_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:duplicateParentState="false"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:textColor="#43bd00"
+        android:textSize="15dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/destination_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:duplicateParentState="false"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:textColor="#43bd00"
+        android:textSize="15dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/numberofpeople_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:duplicateParentState="false"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:textColor="#43bd00"
+        android:textSize="15dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/customer_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:duplicateParentState="false"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:textColor="#43bd00"
+        android:textSize="15dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/joinee1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:textColor="#43bd00"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:duplicateParentState="false" />
+
+    <TextView
+        android:id="@+id/joinee2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:textColor="#43bd00"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:duplicateParentState="false" />
+
+    <TextView
+        android:id="@+id/joinee3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:duplicateParentState="false"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:textColor="#43bd00"
+        android:textSize="15dip"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dhruv_btn_default_holo_light"
+        android:onClick="deleteBooking"
+        android:text="Delete Booking!"
+        android:textColor="#FF0000" />
+
+    <Button
+        android:id="@+id/button211"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dhruv_btn_default_holo_light"
+        android:onClick="uber"
+        android:text="Ride with Uber*"
+        android:textColor="#0000FF" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*Ride with Uber button activates only during selected timeslot"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FF0000" />
+
+</LinearLayout>
